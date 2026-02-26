@@ -65,14 +65,14 @@ export default function MediaSection() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-32 px-6 md:px-20 bg-dark-ink text-stone-bg">
+    <section id="media" ref={sectionRef} className="py-32 px-6 md:px-20 bg-dark-ink text-stone-bg">
       <div className="max-w-[1400px] mx-auto">
         <div className="mb-20">
           <div className="text-[10px] tracking-[0.5em] mb-4 opacity-50 uppercase">Media List</div>
           <h2 className="font-display text-4xl md:text-6xl tracking-tighter">발송 가능 매체</h2>
         </div>
 
-        <div id="media" className="grid grid-cols-1 md:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
           {MEDIA_GROUPS.map((group, i) => (
             <div key={i} className="media-group border-l border-white/10 pl-8 py-4">
               <h3 className="text-2xl font-bold mb-6 text-white uppercase tracking-tighter">{group.category}</h3>

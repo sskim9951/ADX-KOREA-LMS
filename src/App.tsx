@@ -48,7 +48,7 @@ export default function App() {
           window.dispatchEvent(new CustomEvent('anchor-jump', { detail: targetId }));
           
           lenis.scrollTo(targetElement, {
-            offset: 0,
+            offset: -100,
             duration: 1.2,
             immediate: false,
           });
