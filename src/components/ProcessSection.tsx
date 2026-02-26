@@ -60,14 +60,14 @@ export default function ProcessSection() {
           <h2 className="font-display text-4xl md:text-6xl tracking-tighter">집행 절차</h2>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-black/10 border border-black/10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-black/5 border border-black/5 shadow-2xl shadow-black/5">
           {STEPS.map((step) => (
-            <div key={step.id} className="process-item bg-stone-bg p-10 flex flex-col justify-between h-64 hover:bg-white transition-colors group">
+            <div key={step.id} className="process-item bg-white p-10 flex flex-col justify-between h-64 hover:bg-dark-ink hover:text-stone-bg transition-all duration-500 group cursor-default">
               <div>
-                <div className="text-3xl font-display opacity-10 group-hover:opacity-30 transition-opacity">{step.id}</div>
-                <h3 className="text-xl font-bold mt-4 tracking-tight">{step.title}</h3>
+                <div className="text-3xl font-display opacity-10 group-hover:opacity-30 transition-opacity group-hover:text-stone-bg">{step.id}</div>
+                <h3 className="text-xl font-bold mt-4 tracking-tight group-hover:text-white">{step.title}</h3>
               </div>
-              <p className="text-sm text-gray-500 font-light leading-relaxed">
+              <p className="text-sm text-gray-500 font-light leading-relaxed group-hover:text-gray-300 transition-colors">
                 {step.desc}
               </p>
             </div>
