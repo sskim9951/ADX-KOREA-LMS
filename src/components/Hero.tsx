@@ -40,7 +40,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="h-screen relative flex items-center justify-center overflow-hidden">
+    <section id="hero" className="h-screen relative flex items-center justify-center overflow-hidden">
       <img
         ref={imgRef}
         src="https://lh3.googleusercontent.com/d/1r0Ih2LwtToVKT6dN309GMBOW-m-g_f5z"

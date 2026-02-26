@@ -15,7 +15,7 @@ export default function Navbar() {
     <nav className={`fixed top-0 w-full p-6 md:p-8 flex justify-between items-center z-50 transition-all duration-500 ${
       scrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-4' : 'bg-transparent'
     }`}>
-      <div className="font-display font-bold text-xl tracking-tighter text-stone-900">ADX</div>
+      <a href="#hero" className="font-display font-bold text-xl tracking-tighter text-stone-900 cursor-pointer">ADX</a>
       <div className="hidden md:flex gap-12 items-start">
         <a href="#intro" className="flex flex-col items-start group transition-colors text-stone-900">
           <span className="text-[8px] tracking-[0.2em] uppercase opacity-40 group-hover:opacity-100 transition-opacity">Service</span>
