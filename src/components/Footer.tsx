@@ -69,12 +69,12 @@ export default function Footer() {
   return (
     <footer className="fixed bottom-0 left-0 w-full h-screen z-0 bg-[#111] text-white flex flex-col justify-center items-center overflow-hidden">
       <div ref={contentRef} className="relative z-10 w-full max-w-7xl px-6 md:px-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           
           {/* Left Side: Info */}
           <div className="text-left">
             <div className="text-[10px] tracking-[0.5em] mb-4 text-white uppercase font-bold">CONTACT US</div>
-            <h2 className="font-display text-[8vw] md:text-[5vw] leading-tight tracking-tighter mb-12 text-white">
+            <h2 className="font-display text-[6vw] md:text-[3.2vw] leading-tight tracking-tighter mb-12 text-white whitespace-nowrap">
               광고 상담 및 문의
             </h2>
             
