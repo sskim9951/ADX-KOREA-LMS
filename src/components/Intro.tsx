@@ -59,32 +59,30 @@ export default function Intro() {
   }, []);
 
   return (
-    <section
-      id="intro"
-      ref={sectionRef}
-      className="py-32 px-6 md:px-20 grid md:grid-cols-2 gap-16 max-w-[1800px] mx-auto bg-stone-bg"
-    >
-      <div>
-        <h2 className="font-display text-4xl md:text-6xl leading-tight tracking-tighter split-animate">
-          타겟문자란?
-        </h2>
-      </div>
-      <div className="text-lg md:text-xl font-light leading-relaxed text-gray-700">
-        <div className="split-animate">
-          <p className="mb-12">
-            타겟문자광고는 무작위 대량 발송이 아닌, <br />
-            원하는 고객에게만 정확하게 도달하는 정교한 타겟팅 서비스입니다.
-          </p>
+    <section id="intro" ref={sectionRef} className="py-32 px-6 md:px-20 bg-stone-bg">
+      <div className="max-w-[1400px] mx-auto grid md:grid-cols-2 gap-16">
+        <div>
+          <h2 className="font-display text-4xl md:text-6xl leading-tight tracking-tighter split-animate">
+            타겟문자란?
+          </h2>
         </div>
-        <div className="h-px w-full bg-black/10 my-12" />
-        <div className="text-gray-700 split-animate">
-          <p className="text-2xl md:text-4xl font-bold tracking-tighter leading-snug">
-            불법적으로 수집된 DB가 아닌, <br />
-            통신사, 카드사, 포인트사 고객들 중<br />
-            마케팅 수신 동의 고객 DB만을 활용하여, <br />
-            신뢰도 높은 마케팅을 실현합니다.<br /><br />
-            평균 메세지 확인율은 약 90%이상입니다.
-          </p>
+        <div className="text-lg md:text-xl font-light leading-relaxed text-gray-700">
+          <div className="split-animate">
+            <p className="mb-12">
+              타겟문자광고는 무작위 대량 발송이 아닌, <br />
+              원하는 고객에게만 정확하게 도달하는 정교한 타겟팅 서비스입니다.
+            </p>
+          </div>
+          <div className="h-px w-full bg-black/10 my-12" />
+          <div className="text-gray-700 split-animate">
+            <p className="text-2xl md:text-4xl font-bold tracking-tighter leading-snug">
+              불법적으로 수집된 DB가 아닌, <br />
+              통신사, 카드사, 포인트사 고객들 중<br />
+              마케팅 수신 동의 고객 DB만을 활용하여, <br />
+              신뢰도 높은 마케팅을 실현합니다.<br /><br />
+              평균 메세지 확인율은 약 90%이상입니다.
+            </p>
+          </div>
         </div>
       </div>
     </section>

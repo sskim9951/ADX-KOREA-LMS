@@ -50,8 +50,8 @@ export default function PortfolioStack() {
   }, []);
 
   return (
-    <section className="bg-dark-ink text-stone-bg py-20 px-6">
-      <div className="text-center mb-20">
+    <section className="bg-dark-ink text-stone-bg py-32 px-6 md:px-20">
+      <div className="max-w-[1400px] mx-auto mb-20 text-left">
         <div className="text-[10px] tracking-[0.5em] mb-4 opacity-50 uppercase">Examples</div>
         <h2 className="font-display text-4xl md:text-6xl tracking-tighter">발송 예시</h2>
       </div>

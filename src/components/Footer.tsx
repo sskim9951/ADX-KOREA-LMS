@@ -68,7 +68,7 @@ export default function Footer() {
 
   return (
     <footer className="fixed bottom-0 left-0 w-full h-screen z-0 bg-[#111] text-white flex flex-col justify-center items-center overflow-hidden">
-      <div ref={contentRef} className="relative z-10 w-full max-w-7xl px-6 md:px-20">
+      <div ref={contentRef} className="relative z-10 w-full max-w-[1400px] px-6 md:px-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           
           {/* Left Side: Info */}
